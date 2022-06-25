@@ -1,0 +1,66 @@
+body {
+  background-color: aliceblue;
+}
+
+.cFood {
+  width: 30vw;
+
+  position: absolute;
+  top:70px;
+  right:10%;
+}
+
+.t {
+  font-family: "Noto Sans KR", sans-serif;
+  color: white;
+  font-size: 70px;
+  margin-left: 30px;
+}
+
+.bg {
+  background: linear-gradient(-45deg, #45aaf2, #4b7bec, #a55eea, #8854d0);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 5s ease infinite;
+  animation: gradient 5s ease infinite;
+  height: 100vh;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.explain{
+font-family: "Noto Sans KR", sans-serif;
+  color: rgb(75, 74, 74);
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.logo{
+    width: 100px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
