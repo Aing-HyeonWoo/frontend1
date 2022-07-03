@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #fff;
+}
+
+p{
+    width: 144px;
+}
+
+#wallwall{
+    width: 730px;
+    height: 320px;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: left;
+    background-color: #f1f2f6;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#top{
+    height: 48px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#top>#deapyo{
+    float: left;
+    font-size: 25px;
+    margin: 10px;
+
+}
+
+#top>#deobogi:hover{
+    text-decoration: underline;    
+}
+
+#top>#deobogi{
+    margin: 10px;
+    text-decoration: none;
+    float:right;
+}
+
+#bottom{
+    height: 272px;
+}
+
+img{
+    width: 144px;
+    height: 144px;
+    border-radius: 5px;
+}
+
+#dogs{
+    width: auto;
+    height: 272px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+#dogs>div{
+    float:left;
+    width: 144px;
+    height: 200px;
+    margin-left: 27px;
+    display: block;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+#dogs>div:hover{
+    background-color: #dfe4ea;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
