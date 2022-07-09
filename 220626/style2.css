@@ -1,0 +1,43 @@
+body{
+  margin: 0px;
+}
+
+div{
+  width: 100px;
+  height: 100px;
+}
+
+.div1{
+  background:linear-gradient(-45deg, #4a61e0, #bf43cf);
+}
+
+.div1:hover{
+  background:linear-gradient(-45deg, #bf43cf, #4a61e0);
+}
+
+.div2{
+  background:linear-gradient(-45deg, #e04f4a, #defa63);
+}
+
+.div3{
+  background:linear-gradient(-45deg, #74e04a, #43cacf);
+}
+
+
+span{
+  padding : 0;
+  margin: 0;
+}
+
+.span1{
+  background:linear-gradient(-45deg, #4a61e0, #bf43cf);
+}
+
+.span2{
+
+  background:linear-gradient(-45deg, #e04f4a, #defa63);;
+}
+
+.span3{
+  background:linear-gradient(-45deg, #74e04a, #43cacf);
+}
