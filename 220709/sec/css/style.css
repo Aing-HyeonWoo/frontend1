@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+#age-box{
+    width: 300px;
+    height: 40px;
+}
+
+
+#age-box>ul>li>span{
+    width: 18px;
+    height: 18px;
+    display:block;
+    background: url(../images/sp_rank.png) -31px 0;
+}
+
+table{
+    border: 1px solid black;
+}
+
+#tor>#img-t{
+    width: 18px;
+    height: 18px;
+    display: block;
+    background:url(../images/sp_rank.png) 
+}
+
+#tor>span{
+    float:left;
+    margin-left: 5px;
+}

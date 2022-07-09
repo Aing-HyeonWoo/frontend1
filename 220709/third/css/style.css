@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+
+}
+
+#relative{
+    display: block;
+    width: 800px;
+    height: 300px;
+    background-color: #d1d8e0;
+}
+
+#relative>div{
+    transition: all 0.2s ease;
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+    
+}
+
+
+
+#box2{
+    background-color: #fd9644;
+    position: relative;
+    margin-left: -6px;
+    top: 100px;
+}
+
+#box2:hover{
+    background-color: #fa8231;
+}
+
+#box3{
+    background-color: #fed330;
+    position:relative;
+    margin-left: -6px;
+    right: 200px;
+    top: 200px;
+}
+
+#box3:hover{
+    background-color: #f7b731;
+}
+
+#box4{
+    background-color: #fd9644;
+    position: relative;
+    margin-left: -6px;
+    top: 100px;
+}
+
+#box4:hover{
+    background-color: #fa8231;
+}
+
+
+#box5{
+    position: relative;
+    background-color: #fc5c65;
+    right:200px;
+    margin-left:-6px;
+}
+
+#box5:hover{
+    background-color: #eb3b5a;
+}
+
+#box6{
+    position: relative;
+    background-color: #fc5c65;
+    right: 100px;
+    margin-left:-6px;
+}
+
+#box6:hover{
+    background-color: #eb3b5a;
+}
+
+#box7{
+    background-color: #fed330;
+    position:relative;
+    margin-left: -4px;
+    right: 400px;
+    top: 200px;
+}
+
+#box7:hover{
+    background-color: #f7b731;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: #26de81;
+}
+
+#contents{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+#contents>#cont1{
+    width: calc(100% / 3);
+    height: 200px;
+    float: left;
+    background-color: #2bcbba;
+}
+
+#contents>#cont2{
+    width: calc(100% / 3);
+    height: 200px;
+    float: left;
+    background-color: #45aaf2;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#contents>#cont3{
+    width: calc(100% / 3);
+    height: 200px;
+    float: left;
+    background-color: #4b7bec;
+}
+
+
+
+/*
+
+position:relative, absolute, fixed;
+
+
+relative - 상대적인
+현재위치 기준으로 얼만큼
+
+absolute - 절대적인
+상위로부터 얼만큼
+
+하위요소 - absolute
+상위요소 - relative
+
+
+
+*/
